@@ -1,0 +1,34 @@
+mysql -e "create database \`$db_name\`; create user '$db_user'@'localhost' IDENTIFIED BY '$db_pass'; grant all on \`$db_name\`.* to '$db_user'@'localhost'; set password for '$db_user'@'localhost' = password('$db_pass');"
+CREATE DATABASE mydatabase CHARACTER SET utf8 COLLATE utf8_general_ci;
+
+mysql -u root -p
+create database worldRecentServiceDB;
+GRANT ALL PRIVILEGES ON worldRecentServiceDB.* TO grigorenkos@'%' IDENTIFIED BY 'grigorenkos!44$';
+flush privileges;
+quit
+
+GRANT ALL PRIVILEGES ON worldRecentServiceDB.* TO grigorenkos@'%' IDENTIFIED BY 'grigorenkos!44$';
+
+worldMediaDB
+worldRecentServiceDB
+
+CREATE USER grigorenkos@* IDENTIFIED BY 'grigorenkos!44$';
+show grants for grigorenkos@'%';
+
+ln -s /etc/nginx/sites-available/support.ligazakon.ua /etc/nginx/sites-enabled/support.ligazakon.ua
+
+
+
+cd /var/www/support.ligazakon.ua/web
+
+sudo usermod -aG sudo solovey
+groups solovey
+____
+
+app1-www.prod.ligazakon.net
+
+wpliga360couk
+wpliga360couk@!
+
+wpliga360couk
+DIEI)fQ2PLNc94V&eR
