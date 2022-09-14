@@ -17,7 +17,7 @@ show grants for grigorenkos@'%';
 
 ln -s /etc/nginx/sites-available/support.ligazakon.ua /etc/nginx/sites-enabled/support.ligazakon.ua
 
-
+###
 
 cd /var/www/support.ligazakon.ua/web
 
