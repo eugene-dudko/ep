@@ -1,0 +1,14 @@
+add on vcentre
+
+
+echo 1>/sys/class/block/sdb/device/rescan
+fdisk /dev/sdb
+d
+n
+p
+1
+w
+
+
+xfs_growfs /var/lib/mysql(folder)
+
